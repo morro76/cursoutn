@@ -15,8 +15,39 @@
     <style>
         * {
            font-family: "Montserrat";
-            
         }
+
+        button {
+            background-color: #4c66af; /* Verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: underline;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        a {
+            color: #0a0a7b; /* Verde */
+            text-decoration: none;
+            background-color: #e4ecee;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #a4bac6;
+        }
+
+        body div {
+            margin: 20px;
+            padding: 20px;
+            background-color: #e4ecee;
+        }
+
     </style>
 </head>
 <body>
@@ -25,25 +56,104 @@
     <h2>Encuentra aqui las mejores ofertas</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-    <h3>Nuestras Ofertas</h3>
+    <div>
+    <article>
+        <h3>Nuestras Ofertas</h3>
 <!-- Listas manuales  -->
     <p>1 - Pimiento Rojo</p>
     <p>2 - Rucula del Himalaya</p>
     <p>3 - Aceitunas</p>
-<!-- Practicando listas -->
-    <ul>
-        <li>Pimiento Rojo</li>
-        <li>Rucula del Himalaya</li>
-        <li>Aceitunas</li>
-    </ul>
+    </article>
+    </div>
 
-    <h3>Participa de nuestro sorteo</h3>
+    <div>
+        <h3>Lista de productos</h3>
+        <ul>
+            <li>Pimiento Rojo</li>
+            <li>Rucula del Himalaya</li>
+            <li>Aceitunas</li>
+        </ul>
+    </div>
 
-    <ol>
-        <li>Compra por mas de 30k</li>
-        <li>Rellena el cupon</li>
-        <li>Suerte!</li>
-    </ol>
+    <div>
+        <h3>Lista de productos con enlaces</h3>
+        <ul>
+            <li><a href="#">Pimiento Rojo</a></li>
+            <li><a href="#">Rucula del Himalaya</a></li>
+            <li><a href="#">Aceitunas</a></li>
+        </ul>
+    </div>
 
+    <header>
+        <h1>Verduleria Los Tres Hermanos</h1>
+    </header>
+
+    <main>
+        <p>Bienvenido a nuestra verdulería!</p>
+    </main>
+        <section>
+            <p>Verduleria del barrio que tiene como destino crecer dia a dia.
+                Nos encontramos en Zona Norte, en la calle Av. Aviación 1234, y ofrecemos una amplia variedad de frutas y verduras frescas.
+                Nuestro objetivo es brindar productos de calidad a nuestros clientes, con un servicio amable y cercano.
+            </p>
+        </section>
+
+         <div>
+        <h3>Lista de productos</h3>
+        <ul>
+            <li>Pimiento Rojo</li>
+            <li>Rucula del Himalaya</li>
+            <li>Aceitunas</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Lista de productos con enlaces</h3>
+        <ul>
+            <li><a href="#">Pimiento Rojo</a></li>
+            <li><a href="#">Rucula del Himalaya</a></li>
+            <li><a href="#">Aceitunas</a></li>
+        </ul>
+    </div>
+    <section>
+        <form action="api">
+            <input type="text" placeholder="Nombre y Apellido">
+            <input type="number" placeholder="DNI">
+            <p>Ingrese su email</p>
+            <input type="email" placeholder="Email">
+            <p>Ingrese fecha de nacimiento</p>
+            <input type="date">
+            <select>
+                <option value="opcion1">Rojo</option>
+                <option value="opcion2">Azul</option>
+            </select>
+            <label>Votar A
+            <input type="radio" name="voto" value="A">
+            </label>
+            <label>Votar B
+            <input type="radio" name="voto" value="B">
+            </label>
+            <label>
+                <input type="checkbox" name="terminos" value="aceptar"> Acepto los términos y condiciones
+            </label>
+
+            <button type="button">Cancelar</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+    </section>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R7NvmuvcgZA?si=xcJpksS4lkzqS4io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    
+    <footer>
+        <p>© 2024 Verduleria Los Tres Hermanos. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Términos de Servicio</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="https://instagram.com/deportivo.aviacion" target="_blank">Síguenos en Instagram</a></li>
+            <li><button>Ir a Instagram</button></li>
+        </ul>
+    </footer>
 </body>
 </html>
