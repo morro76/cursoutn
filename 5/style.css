@@ -1,0 +1,12 @@
+/*Ventaja de usar archivo .css
+El estilo esta centralizado
+En tu sistema tenes separacion por responsabilidades
+Mas facil de mantener.
+Uso de reglas CSS para elementos con las mismas caracteristicas
+Cambias una sola vez y se aplica a todos los elementos que tengan esa clase o id.*/
+
+h1 {
+    color: rgb(255, 0, 72);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
