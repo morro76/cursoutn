@@ -30,8 +30,14 @@ h2 ~ p {
 }
 
 /* Este simbolo identifica a las clases "." */
+/* Si tenemos 2 clases de css que trabajan sobre el mismo elemento, 
+la que se encuentra al final del archivo es la que se aplica */
 
 .destacado {
-    color: #e60000;
+    color: #000fe6;
     font-weight: 900;
 } 
+
+.destacado-rojo{
+    color: #e60000;
+}

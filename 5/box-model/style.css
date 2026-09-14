@@ -1,0 +1,14 @@
+/* El PADDING funciona como el relleno de dirio o espuma que viene dentro una...
+Para ocupar spacio y dar forma. */
+/* Da aire entre el contenido y la caja que lo contiene. Ademas, de estetico ayuda a la lectura. */
+div.ejemplo{
+    margin: 20px;
+    padding: 20px;
+/* Border tiene el ancho de linea que delimita la caja, y puede ser de diferentes estilos y colores. */
+    border: 10px solid black;
+    border-style: dashed;
+    border-bottom-width: 20px;
+    border-top-color: chocolate;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
