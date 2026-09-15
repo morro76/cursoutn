@@ -6,9 +6,21 @@ div.ejemplo{
     padding: 20px;
 /* Border tiene el ancho de linea que delimita la caja, y puede ser de diferentes estilos y colores. */
     border: 10px solid black;
+/* Border-style es el tipo de linea*/
     border-style: dashed;
     border-bottom-width: 20px;
     border-top-color: chocolate;
+/* Redondear borde ingerior izquierdo en 20px */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-right-style: dotted;
 }
+
+div.ejemplo-2{
+    margin: 20px 15px 10px;
+    padding: 20px 5px;
+    border: 10px solid rgb(77, 94, 125);
+    border-color: red green blue yellow;
+    width: 300px;
+}
+
