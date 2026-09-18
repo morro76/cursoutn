@@ -1,0 +1,11 @@
+/*Ventajas de usar el archivo .css:
+El estilo esta centralizado.
+En tu sistema tenes separacion por responsabilidad.
+Mas facil de mantener y actualizar el estilo de tu sitio web.*/
+
+
+h1{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5.5em;
+}
