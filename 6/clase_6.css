@@ -45,3 +45,16 @@ article{
     padding: 5px 10px;
     border-radius: 20px;
 }
+
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #9E9E9E;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 14px 10px rgba(0, 0, 0, 3);
+}
+
