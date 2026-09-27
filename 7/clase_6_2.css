@@ -1,0 +1,14 @@
+section{
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+
+.lista li{
+    padding: 10px 15px;
+    border: 1px solid gray ;
+}
