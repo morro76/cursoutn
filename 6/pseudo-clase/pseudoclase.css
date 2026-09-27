@@ -58,3 +58,30 @@ input:focus{
     border-color: blue;
 }
 
+.titulo-2::before{
+    content: "🔥";
+}
+
+.titulo-2::after{
+    content: "💥";
+}
+
+/* Sin importar el texto que tenga siempre la primera letra se va a comportar distinta */
+
+.lorem::first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 8px;
+
+}
+/* Sim imoprtar el texto que tenga siempre la primera linea se va a comportar distinta*/
+.lorem::first-line{
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* El texto seleccionado cambia de color*/
+.lorem::selection{
+    background-color: yellow;
+    color: black;
+}
