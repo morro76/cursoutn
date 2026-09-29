@@ -1,0 +1,43 @@
+.flex-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: orange;
+    border: solid black;
+    height: 200px;
+}
+
+.flex-item{
+    background-color: green;
+    color: white;
+    border: solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+}
+
+.ai-start{
+    align-items: start;
+}
+
+.ai-end{
+    align-items: end;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-strech{
+    align-items: stretch;
+}
+
+.ai-strech div{
+    height: 90px;
+}
+
+/* baseline no es muy usado*/
+.ai-baseline{
+    align-items: baseline;
+}
