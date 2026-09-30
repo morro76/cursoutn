@@ -27,6 +27,7 @@
 
 .ai-center{
     align-items: center;
+    justify-content: center;
 }
 
 .ai-strech{
