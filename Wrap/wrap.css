@@ -1,7 +1,9 @@
-.flex-container{
+.flex-container-margin{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+/*gap separa los elementos del contenedor flex*/
+    row-gap: 103px;
 }
 
 .flex-item{
@@ -12,5 +14,13 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 32px;
+    margin: 103px 0px;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+/*gap separa los elementos del contenedor flex*/
+    row-gap: 20px;
+}
